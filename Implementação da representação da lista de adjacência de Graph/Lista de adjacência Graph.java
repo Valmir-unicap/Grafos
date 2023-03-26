@@ -1,7 +1,7 @@
 // Adjacency list representation of a graph in Java
 import java.util.LinkedList;
 
-class Graph {
+public class Graph {
 private int V; // number of vertices in the graph
 private LinkedList<Integer>[] adjList; // array of adjacency lists
 
