@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-  int V = 5;
+  int V = 5; //Quantidade de vertice
   Graph g = new Graph(V);
   g.addEdge(0, 1);
   g.addEdge(0, 3);
