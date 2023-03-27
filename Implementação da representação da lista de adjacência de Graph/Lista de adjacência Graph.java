@@ -28,7 +28,7 @@ public void print() {
     for (int v = 0; v < V; v++) {
         System.out.print("The adjacency list of vertex " + v + " is: ");
         for (int neighbor : adjList[v]) {
-            System.out.print(neighbor + " ");
+            System.out.print(neighbor + " | ");
         }
         System.out.println();
     }
