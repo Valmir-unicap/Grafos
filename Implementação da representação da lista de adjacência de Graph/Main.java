@@ -9,6 +9,6 @@ public class Main {
   g.addEdge(2, 4);
   g.addEdge(2, 3);
   g.addEdge(3, 4);
-  g.print();
+  g.display();
   }
 }
